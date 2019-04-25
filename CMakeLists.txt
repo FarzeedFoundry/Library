@@ -7,4 +7,4 @@ project (TestLibrary)
 
 add_library (TestLibrary STATIC TestLibrary.cpp)
 
-configure_file( TestLibraryonfig.cmake.in TestLibraryConfig.cmake @ONLY )
+configure_file( TestLibraryConfig.cmake.in TestLibraryConfig.cmake @ONLY )
